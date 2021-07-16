@@ -1,4 +1,4 @@
-# Ibo Code Template Screen Shots
+# Ibo Code Template Screenshots
 ## Home Page
 ![Home Page](https://github.com/ebrahemko2/WordPress/blob/master/screenshots/home%20page.png "Home Page")
 
