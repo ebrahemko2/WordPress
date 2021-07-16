@@ -1,0 +1,268 @@
+/* Start global Styles */
+body {
+    background-color: #eee;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    position: relative;
+    /* dark: #00b686 */
+}
+
+.bg-primary, .btn-primary {
+    background-color: #1de9b6 !important;
+    color: #212529;
+}
+
+.btn-primary {
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00b686 !important;
+}
+
+.btn-outline-primary {
+    background-color: #fff !important;
+    border: 1px solid #00b686;
+    color: #00b686;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00b686 !important;
+    color: #fff;
+    border: 1px solid #00b686;
+}
+
+.text-primary {
+    color: #00b686 !important;
+}
+
+.text-primary-light {
+    color: #a7ffeb;
+}
+
+.bg-primary-light {
+    background-color: #a7ffeb;
+}
+
+
+/* End global Styles */
+
+/* Start navbar */
+.navbar li a:hover {
+    background-color: #fff !important;
+    color: #00b686 !important;
+}
+
+/* End Navbar */
+
+/* Start posts Style */
+
+.post-title a {
+    color: #00b686;
+    text-decoration: none;
+}
+
+.post-header a{
+    color: #6c757d;
+    text-decoration: none;
+}
+
+
+
+.categories a, .tags a, .tags p{
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.pagnination-links a, .pagnination-links span {
+    text-decoration: none;
+    font-weight: 600;
+    color: #00b686;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 10px 5px;   
+}
+
+
+.pagnination-links span {
+    color: #6c757d;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.pagnination-links a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    background-color: #212529;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-weight: 600;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; 
+}
+
+.pagnination-links a:first-of-type {
+    border-radius: 0 10px 0 10px;
+}
+
+.pagnination-links a:last-of-type {
+    border-radius: 10px 0 10px 0;
+}
+
+
+.articles-pagination .page-numbers.current, .articles-pagination .page-numbers:hover {
+    background-color: #212529;
+    color: #fff;
+} 
+
+.articles-pagination .page-numbers {
+    background-color: #fff;
+    color: #00b686;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+/* End posts Style */
+
+/* Start category page style */
+.category-page .category-header .category-description {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* End category page style */
+
+/* Start single Post Style */
+.edit-btn {
+    background-color: #a7ffeb;
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.edit-btn:hover {
+    background-color: #00b686;
+    color: #fff;
+}
+/* End single Post Style */
+
+/* Start author style */
+.accordion-button:not(.collapsed) {
+    color: #212529;
+    background-color: #a7ffeb;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+/* End author style */
+
+/* Start comments style */
+.comments-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+.comments-list .comment {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.comments-list .comment .fn {
+    margin-left: 10px;
+}
+
+.comments-list .comment .says {
+    display: none;
+}
+
+
+.comments-list a {
+    color: #00b686;
+    text-decoration: none;
+}
+
+.comments-list .avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.comments-list .bypostauthor > .comment-body > .comment-author:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+    content: "\f521";
+    margin-left: 10px;
+    color: #e91d50;
+}
+
+.comment-form #wp-comment-cookies-consent:checked {
+    background-color: #00b686 !important;
+    color: #fff !important;
+    border-color: #00b686 !important;
+}
+
+.comment-form .logged-in-as a {
+    color: #00b686;
+    text-decoration: none;
+}
+
+.comment-respond .comment-reply-title > a {
+    color: #00b686;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.comment-respond #cancel-comment-reply-link {
+    color: #212529;
+    border-color: #212529;
+    background-color: #fff;
+    padding: 0.5rem 0.9rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid #212529;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+}
+
+.comment-respond #cancel-comment-reply-link:hover {
+    background-color: #212529;
+    color: #fff;
+}
+
+
+/* End comments style */
+
+/* Start author page style */
+.author-stats p i {
+    color: #a7ffeb;
+}
+
+.author-post strong a {
+    text-decoration: none;
+    color: #00b686;
+}
+
+.author-post a {
+    color: #00b686;
+}
+
+.author-post .wp-post-image {
+    vertical-align: middle;
+}
+/* End author page style */
+
+
+/* Start contact page style */
+.contact-container input::placeholder {
+    color: #eee;
+}
+
+/* End contact page style */
