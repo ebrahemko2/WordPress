@@ -1,4 +1,7 @@
 # Ibo Code Template Screenshots
+I developed this wordpress template from zero.
+You can use it.
+
 ## Home Page
 ![Home Page](https://github.com/ebrahemko2/WordPress/blob/master/screenshots/home%20page.png "Home Page")
 
