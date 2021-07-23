@@ -2,6 +2,9 @@
 I developed this wordpress template from zero.
 You can use it.
 
+## Note 
+You can find it in "wp-content/themes/ibo"
+
 ## Home Page
 ![Home Page](https://github.com/ebrahemko2/WordPress/blob/master/screenshots/home%20page.png "Home Page")
 
