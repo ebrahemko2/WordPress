@@ -1,5 +1,5 @@
-# Ibo Code Template Screenshots
-I developed this wordpress template from zero.
+# Ibo Code Theme Screenshots
+I developed this wordpress theme from zero.
 You can use it.
 
 ## Note 
